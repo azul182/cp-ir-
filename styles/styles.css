@@ -12,9 +12,8 @@
     --azul--claro: #6288AB;
 }
 
-.header-page{
+ .header-page{
     width: 100%;
-    padding: 20px;
     background-color: var(--cinza-claro);
     display: flex;
     align-items: center;
@@ -25,9 +24,11 @@
     display: flex;
     gap: 30px;
     list-style: none;
+    padding: 20px;
 }
 
 .header-page h3{
+    padding: 20px;
     font-size: 35px;
 }
 
@@ -40,42 +41,145 @@
     width: 100%;
 }
 
-.metade{
+.blue-text{
     color: var(--azul--claro);
 }
 
 .collections{
+    /* width: 100%; */
     padding: 20px;
     margin: 20px auto;
-    
 }
 
 .collections h2{
     font-size: 40px;
     text-align: center;
-    margin: 30px 30px 0 0;
     color: var(--azul--claro);
+    margin: 30px 0;
+}
+
+.lista-collections{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .collection-item{
+    width: 26%;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    
+    text-align: center;
+    background-color: var(--cinza-claro);
+    margin: 20px;
 }
 
 .collection-item img{
-    width: 31%;
-    padding: 20px;
+    width: 100%;
     transition: 1.5s;
-    background-color: var(--cinza-claro);
+    padding: 20px;
+    transition: 0.5s;
 }
 
-.itens{
-    flex: auto;
+.collection-item img:hover{
+    scale: 1.1;
 }
 
+.collection-item h4{
+    font-size: 30px;
+    color: var(--cinza-escuro);
+}
 
+.collection-item a{
+    padding: 15px 20px;
+    background-color: var(--azul--claro);
+    color: var(--cinza-claro);
+    width: 200px;
+    text-decoration: none;
+}
 
+.team-work{
+    /* width: 100%; */
+    padding: 20px;
+    margin: 40px auto;
+    background-color: var(--cinza-escuro);
+}
 
+.team-work h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+    color: var(--azul--claro);
+}
 
+.team-work-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
+.team-work-item{
+    width: 46%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team-work-item img{
+    width: 400px;
+    height: 225px;
+    transition: 1.5s;
+}
+
+.team-work-item img:hover{
+    scale: 1.1;
+}
+
+.team-work-item p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: var(--cinza-claro);
+}
+ 
+.workshop{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.workshop h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+    color: var(--azul--claro);
+}
+
+.workshp-item h3{
+    margin-top: 10px;
+}
+
+.workshp-item p{
+    margin-top: 10px
+}
+
+.workshp-item img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footer-page{
+    width: 90%;
+    margin: 20px auto;
+    padding-top: 10px;
+    color: var(--cinza-escuro);
+    text-align: center;
+}
+
+hr{
+    color: var(--cinza-escuro);
+}
